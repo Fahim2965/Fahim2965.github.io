@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+body {
+    font-family: ;
+    background-color: #0f0e17;
+    color: #a7a9be;
+    text-align: center;
+
+}
+
+nav {
+    background-color: #0f0e17;
+}
+
+nav > a {
+    color:#fffffe;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+nav > a:hover {
+background-color: rgb(3, 66, 45);
+}
+
+nav {
+  list-style:none;
+  display:flex;
+  justify-content:center;
+}
+
+nav a{
+  text-decoration:none;
+  color:#fff;
+  width:120px;
+  display:block;
+  text-align:center;
+}
+nav a:hover{
+  font-size:20px;
+  transition:0.6s
+}
+
