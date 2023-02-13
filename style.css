@@ -1,12 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 
+nav {
+    font-family: cursive;
+
+}
+
 body {
-    font-family: ;
     background-color: #0f0e17;
     color: #a7a9be;
-    text-align: center;
+}
 
+.center {
+    text-align: center;
+}
+
+#pg {
+    text-align: center;
+}
+
+#h1 {
+    text-align: center;
+}
+
+
+
+#photo {
+    text-align: center;
 }
 
 nav {
