@@ -9,11 +9,48 @@
 </head>
 <body>
     <nav>
-    <a href="Mainpage.html">Home</a>
+    <a href="index.html">Home</a>
     <a href="Aboutme.html">About Me</a>
     <a href="Projects.html">My Projects</a>
     <a href="Services.html">Services</a>
     <a href="Contact.html">Contact Me</a>
     </nav>
+
+    <h1>Conteact Me</h1>
+
+
+
+    <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    method="post"
+   >
+        <label>Name:</label>
+        <br>
+        <input placeholder=" Jack Gibson" name="fullName">
+        <br>
+        <label>Email:</label>
+        <br>
+        <input placeholder=" someone123@gmail.com" name="email">
+        <br>
+        <label>Best Contact Time</label>
+        <br>
+        <input type="time" name="contactTime">
+        <br>
+        <label>Comments</label>
+        <br>
+        <textarea name="comments"></textarea>
+        <br>
+        <input type="checkbox" name="terms">
+        <label>I agree to the terms and conditions</label>
+        <br>
+        <p>Whats the best way to contact you?</p>
+        <input type="radio" name="contactTypes" value="phone"><label>Phone</label><br>
+        <input type="radio" name="contactTypes" value="email"><label>Email</label><br>
+        <input type="radio" name="contactTypes" value="linkedin"><label>Linkedin</label><br>
+        <input type="radio" name="contactTypes" value="alleyway"><label>Meeting in an alley way</label><br>
+        <br>
+        <input type="submit">
+        <input type="reset">
+        <input name="send-to" value="fmuntasir2@brooklynsteamcenter.org" hidden>
+    </form>
 </body>
 </html>
