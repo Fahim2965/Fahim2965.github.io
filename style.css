@@ -7,8 +7,12 @@ nav {
 }
 
 body {
-    background-color: rgb(0, 0, 0);
-    color: #a7a9be;
+    background-color: #004643;
+    
+}
+
+p, h1, li, label {
+    color: #abd1c6;
 }
 
 .center {
@@ -30,13 +34,13 @@ body {
 }
 
 nav {
-    background-color: #0f0e17;
+    background-color:#fffffe;
 }
 
 nav > a {
     color:#fffffe;
     text-decoration: none;
-    padding: 8px 12px;
+    padding: 12px 12px;
     display: inline-block;
 }
 
@@ -52,13 +56,36 @@ nav {
 
 nav a{
   text-decoration:none;
-  color:#fff;
+  color:#abd1c6;
   width:120px;
   display:block;
   text-align:center;
 }
 nav a:hover{
-  font-size:20px;
+  font: size 30px;
   transition:0.6s
 }
+
+input, textarea {
+    background-color: #f9bc60;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 10px 14px;
+    border: 2px whitesmoke solid;
+}
+
+input:focus, textarea:focus {
+    background-color: #f9bc60;
+    color: #001e1d;
+}
+
+input[type=submit], input[type=reset] {
+    background-color:#f9bc60;
+    color: #001e1d;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: rgb(177, 248, 248);
+}
+
 
