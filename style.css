@@ -8,9 +8,6 @@ nav {
 
 body {
     background-color: #004643;
-    background-color: #ffffff;
-/*background-image: url(19852070_6205209.jpg);
-background-position-x: px;*/
 }
 
 p, h1, li, label {
@@ -25,10 +22,10 @@ p, h1, li, label {
     text-align: center;
 }
 
-#h1 {
+/*#h1 {
     text-align: center;
 }
-
+*/
 
 
 #photo {
@@ -47,7 +44,7 @@ nav > a {
 }
 
 nav > a:hover {
-background-color: rgb(217, 181, 243);
+background-color:  #004643;
 }
 
 nav {
@@ -89,9 +86,12 @@ input[type=submit], input[type=reset] {
 input[type=submit]:hover, input[type=reset]:hover {
     background-color: rgb(33, 168, 168);
 }
+.linkedin {
+    margin-right: 5px;
+}
 
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 400px) {
     body 
     {
         background-color: #004643;
