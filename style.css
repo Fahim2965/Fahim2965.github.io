@@ -111,8 +111,11 @@ input[type=submit]:hover, input[type=reset]:hover {
     margin-right: 5px;
 }
 
-.floor
+.ok
 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
 }
 
@@ -131,6 +134,10 @@ input[type=submit]:hover, input[type=reset]:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.p2
+{
+    text-align: center;
+}
 
 
 @media screen and (max-width: 480px) {
@@ -146,7 +153,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 
 }
 
-@media screen and (min-width: 481px)
+/*@media screen and (min-width: 481px)
 {
     .grid {
         display: grid;
@@ -154,4 +161,4 @@ input[type=submit]:hover, input[type=reset]:hover {
         padding: 200px 0 0 0;
         gap: 150px 50px;
       }
-}
+}*/
