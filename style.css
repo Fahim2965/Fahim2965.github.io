@@ -8,6 +8,7 @@ nav {
 
 body {
     background-color: #004643;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p, h1, li, label {
@@ -74,7 +75,7 @@ footer {
 }
 
 footer > a {
-    color:rgb(255, 255, 255);
+    color: #7fb58c;
     text-decoration: none;
     padding: 8px;
     display: inline-block;
@@ -110,6 +111,11 @@ input[type=submit]:hover, input[type=reset]:hover {
     margin-right: 5px;
 }
 
+.floor
+{
+    border-radius: 15px;
+}
+
 .gmail
 {
     margin-right: 5px;
@@ -120,8 +126,14 @@ input[type=submit]:hover, input[type=reset]:hover {
     text-align: center;
 }
 
+#contact
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-@media screen and (max-width: 400px) {
+
+
+@media screen and (max-width: 480px) {
     body 
     {
         background-color: #004643;
@@ -132,4 +144,14 @@ input[type=submit]:hover, input[type=reset]:hover {
         background-color: #7fb58c;
     }
 
+}
+
+@media screen and (min-width: 481px)
+{
+    .grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 200px 0 0 0;
+        gap: 150px 50px;
+      }
 }
