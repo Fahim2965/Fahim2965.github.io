@@ -139,6 +139,14 @@ input[type=submit]:hover, input[type=reset]:hover {
     text-align: center;
 }
 
+#web
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 @media screen and (max-width: 480px) {
     body 
