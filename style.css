@@ -7,12 +7,12 @@ nav {
 }
 
 body {
-    background-color: #004643;
+    background-color: #abd1c6;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 p, h1, li, label {
-    color: #7fb58c;
+    color: #004643;
 }
 
 .center {
@@ -45,7 +45,7 @@ nav > a {
 }
 
 nav > a:hover {
-background-color:  #004643;
+background-color:  #abd1c6;
 }
 
 nav {
@@ -56,10 +56,11 @@ nav {
 
 nav a{
   text-decoration:none;
-  color:#abd1c6;
+  color:#004643;
   width:120px;
   display:block;
   text-align:center;
+  
 }
 nav a:hover{
   font: size 30px;
@@ -151,7 +152,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 @media screen and (max-width: 480px) {
     body 
     {
-        background-color: #004643;
+        background-color: #7fb58c;
     }
 
     nav > a:hover 
@@ -159,14 +160,17 @@ input[type=submit]:hover, input[type=reset]:hover {
         background-color: #7fb58c;
     }
 
-}
+    .pp
+    {
+        width: 350px;
+        height: auto;
+        margin: auto;
+    }
 
-/*@media screen and (min-width: 481px)
-{
-    .grid {
-        display: grid;
-        grid-template-columns: 60% 60%;
-        padding: 200px 0 0 0;
-        gap: 150px 50px;
-      }
-}*/
+    iframe
+    {
+        width: 350px;
+    }
+
+
+}
