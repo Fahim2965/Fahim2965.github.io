@@ -147,6 +147,11 @@ input[type=submit]:hover, input[type=reset]:hover {
     margin-right: auto;
 }
 
+main
+{
+    max-width: 500px;
+    margin: auto;
+}
 
 
 @media screen and (max-width: 480px) {
