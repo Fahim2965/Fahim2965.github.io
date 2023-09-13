@@ -179,3 +179,20 @@ main
 
 
 }
+#hr {
+    text-align: center;
+}
+
+#rt {
+    text-align: center;
+    list-style: none;
+}
+
+#we {
+    text-align: center;
+    list-style: none;
+}
+
+#h1 {
+    text-align: center;
+}
